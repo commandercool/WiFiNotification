@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, prefs!</string>
+    <string name="app_name">Wi-Fi notification</string>
+    <!-- Notification tickers -->
+	<string name="authentication">Authentication...</string>
+	<string name="connected">Connected to </string>
+	<string name="connecting">Connecting...</string>
+	<string name="disconnected">No active connection</string>
+	<string name="disconnecting">Disconnecting...</string>
+	<string name="failed">Failed to connect </string>
+	<string name="getIp">Getting ip address...</string>
+	<string name="scanning">Scanning for networks</string>
+	<string name="suspended">IP traffic is suspended</string>
+	<string name="wifi_on">Wi-Fi is enabled</string>
+	<string name="wifi_off">Wi-Fi is disabled</string>
+	<string name="turn_wifi_on">Turn on</string>
+	<string name="turning_wifi_on">Turning on</string>
+	<string name="turn_wifi_off">Turn off</string>
+	<string name="turning_wifi_off">Turning off</string>
+	<string name="local_ip">Local Ip:</string>
+	<string name="speed">Connection speed: </string>
+	
+	<!-- Preferences -->
+	<string name="wifi_status">Wi-Fi status</string>
+	<string name="wifi">Wi-Fi</string>
+	<string name="system_settings">System settings</string>
+	<string name="wifi_set">Wi-Fi settings</string>
+	<string name="goto_set">Go to system settings menu</string>
+	<string name="wifi_ip_set">Advanced Wi-Fi settings</string>
+	<string name="goto_ip_set">Configure advanced settings</string>
+	<string name="app_settings">Application settings</string>
+	<string name="start_serv">Notifying service</string>
+	<string name="serv_start">Start/stop notifying service</string>
+	<string name="hide">Hide notification</string>
+	<string name="hide_sum">Do not show notification, when Wi-Fi is disabled</string>
+	<string name="autorun">Autorun</string>
+	<string name="enable_autorun">Start service when the system booted</string>
+	<string name="about">About</string>
+	<string name="about_app">Wi-Fi notification</string>
+	<string name="about_sum">Alex Erohin, 2011</string>
+	
+</resources>

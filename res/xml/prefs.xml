@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+            android:title="@+string/wifi_status">
+
+        <CheckBoxPreference
+                android:key="wifi_preference"
+                android:title="@+string/wifi"
+                />
+    
+    </PreferenceCategory>
+
+    <PreferenceCategory
+            android:title="@+string/system_settings">
+		                
+		<PreferenceScreen
+                android:title="@+string/wifi_set"
+                android:summary="@+string/goto_set">
+				<intent android:action="android.settings.WIFI_SETTINGS"/>	
+        </PreferenceScreen>
+        
+                        
+		<PreferenceScreen
+                android:title="@+string/wifi_ip_set"
+                android:summary="@+string/goto_ip_set">
+				<intent android:action="android.settings.WIFI_IP_SETTINGS"/>	
+        </PreferenceScreen>
+
+
+    </PreferenceCategory>
+    
+    <PreferenceCategory
+            android:title="@+string/app_settings">
+
+        <CheckBoxPreference
+                android:key="start_service"
+                android:title="@+string/start_serv"
+                android:summary="@+string/serv_start"
+            />
+        <CheckBoxPreference
+                android:key="hide_icon"
+                android:dependency="start_service"
+                android:layout="?android:attr/preferenceLayoutChild"
+                android:title="@+string/hide"
+                android:summary="@+string/hide_sum" />
+        
+        <CheckBoxPreference
+                android:key="autorun"
+                android:dependency="start_service"
+                android:layout="?android:attr/preferenceLayoutChild"
+                android:title="@+string/autorun"
+                android:summary="@+string/enable_autorun" />
+
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+            android:title="@+string/about">
+
+        <!-- This PreferenceScreen tag serves as a screen break (similar to page break
+             in word processing). Like for other preference types, we assign a key
+             here so it is able to save and restore its instance state. -->
+        <Preference
+                android:key="screen_preference"
+                android:title="@+string/about_app"
+                android:summary="@+string/about_sum"
+                android:enabled="false"
+            />
+
+
+    </PreferenceCategory>
+
+    
+</PreferenceScreen>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, prefs!</string>
+    <string name="app_name">Wi-Fi notification</string>
+    <!-- Notification tickers -->
+	<string name="authentication">Аутентификация...</string>
+	<string name="connected">Подключено к </string>
+	<string name="connecting">Подключение... </string>
+	<string name="disconnected">Не подключено</string>
+	<string name="disconnecting">Отключение...</string>
+	<string name="failed">Ошибка подключения </string>
+	<string name="getIp">Получение ip адреса...</string>
+	<string name="scanning">Идет сканирование</string>
+	<string name="suspended">Соединение приостановлено</string>
+	<string name="wifi_on">Wi-Fi включен</string>
+	<string name="wifi_off">Wi-Fi выключен</string>
+	<string name="turn_wifi_on">Включить</string>
+	<string name="turning_wifi_on">Включение</string>
+	<string name="turn_wifi_off">Выключить</string>
+	<string name="turning_wifi_off">Выключение</string>
+	<string name="local_ip">Локальный Ip:</string>
+	<string name="speed">Скорость соединения: </string>
+	
+	<!-- Preferences -->
+	<string name="wifi_status">Статус Wi-Fi</string>
+	<string name="wifi">Wi-Fi</string>
+	<string name="system_settings">Системные настройки</string>
+	<string name="wifi_set">Настройки Wi-Fi</string>
+	<string name="goto_set">Перейти к системным настройкам</string>
+	<string name="wifi_ip_set">Расширенные настройки Wi-Fi</string>
+	<string name="goto_ip_set">Изменить расширенные настройки</string>
+	<string name="app_settings">Настройки приложения</string>
+	<string name="start_serv">Сервис уведомлений</string>
+	<string name="serv_start">Запустить/остановить сервис</string>
+	<string name="hide">Прятать уведомление</string>
+	<string name="hide_sum">Не показывать уведомление, когда Wi-Fi выключен</string>
+	<string name="autorun">Автозагрузка</string>
+	<string name="enable_autorun">Запускать сервис вместе со стартом системы</string>
+	<string name="about">О приложении</string>
+	<string name="about_app">Wi-Fi notification</string>
+	<string name="about_sum">Александр Ерохин, 2011</string>
+	
+</resources>
+
